@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.596461b9.css",
-    "main.js": "/static/js/main.8bd8d216.js",
-    "static/js/787.299a8e94.chunk.js": "/static/js/787.299a8e94.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.596461b9.css.map": "/static/css/main.596461b9.css.map",
-    "main.8bd8d216.js.map": "/static/js/main.8bd8d216.js.map",
-    "787.299a8e94.chunk.js.map": "/static/js/787.299a8e94.chunk.js.map"
+    "main.css": "/ChatGPT-React/static/css/main.596461b9.css",
+    "main.js": "/ChatGPT-React/static/js/main.b8c1a05a.js",
+    "static/js/787.299a8e94.chunk.js": "/ChatGPT-React/static/js/787.299a8e94.chunk.js",
+    "static/media/logo.svg": "/ChatGPT-React/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ChatGPT-React/index.html",
+    "main.596461b9.css.map": "/ChatGPT-React/static/css/main.596461b9.css.map",
+    "main.b8c1a05a.js.map": "/ChatGPT-React/static/js/main.b8c1a05a.js.map",
+    "787.299a8e94.chunk.js.map": "/ChatGPT-React/static/js/787.299a8e94.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.596461b9.css",
-    "static/js/main.8bd8d216.js"
+    "static/js/main.b8c1a05a.js"
   ]
 }
