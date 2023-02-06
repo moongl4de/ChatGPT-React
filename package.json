@@ -1,4 +1,5 @@
 {
+  "homepage": "https://moongl4de.github.io/ChatGPT-React",
   "name": "chatgpt-react",
   "version": "1.0.0",
   "description": "",
@@ -8,7 +9,8 @@
     "start": "node server.js",
     "server": "npx nodemon server.js",
     "client": "npm start --prefix client",
-    "deploy": "firebase deploy --only functions",
+    "predeploy": "cd client && npm run build",
+    "deploy": "cd client && gh-pages -d build",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
@@ -20,7 +22,6 @@
   "bugs": {
     "url": "https://github.com/moongl4de/ChatGPT-React/issues"
   },
-  "homepage": "https://github.com/moongl4de/ChatGPT-React#readme",
   "dependencies": {
     "body-parser": "^1.20.1",
     "concurrently": "^7.6.0",
@@ -30,5 +31,8 @@
     "firebase-admin": "^11.5.0",
     "openai": "^3.1.0",
     "react-typed": "^1.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }

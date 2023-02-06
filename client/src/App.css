@@ -16,6 +16,29 @@
 .hidden {
 }
 
+.inputClass {
+  width: 85%;
+  max-width: 650px;
+  height: 50px;
+  font-size: 20px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  border: 2px solid rgb(0, 216, 231);
+  text-align: center;
+  caret-color: rgb(0, 110, 255);
+}
+
+.inputClass:active,
+.inputClass:focus-visible {
+  border: none;
+}
+
+.bottomNotes {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+
+  padding: 5px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
