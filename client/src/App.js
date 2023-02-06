@@ -30,6 +30,10 @@ import Typed from "react-typed";
 import axios from "axios";
 
 function App() {
+  axios.get("https://moonglade-ai.onrender.com/").then((res) => {
+    console.log("Pinging to wake up server: ", res);
+  });
+
   const [ask, setAsk] = useState("");
   const [aiResponse, setAiResponse] = useState("");
   const [aiResponseTyped, setAiResponseTyped] = useState([]);
@@ -76,7 +80,7 @@ function App() {
 
         <Container>
           <div className="containResponse">
-            <Typed value={aiResponse} strings={[aiResponse]} typeSpeed={55} />
+            <Typed value={aiResponse} strings={[aiResponse]} typeSpeed={35} />
           </div>
           <br />
           <ShowSpinner showSpinner={showSpinner} />
