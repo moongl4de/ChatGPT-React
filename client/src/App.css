@@ -74,6 +74,7 @@ p {
   bottom: 0px; */
 
   padding: 20px;
+
   /* position: absolute;
   bottom: 0px;
  */
@@ -83,16 +84,17 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 5%;
-  height: 1100px;
+
+  height: 500px;
   padding-bottom: 0;
 }
 
 h1 {
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.658);
+  margin-top: 150px;
 }
 
 .App-link {

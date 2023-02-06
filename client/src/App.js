@@ -92,12 +92,11 @@ function App() {
 
             {/* <button type="submit">Submit</button> */}
           </form>
-          <br /> <br /> <br /> <br /> <br /> <br />
+          <br /> <br />
           <hr />
         </Container>
       </header>
       <div className="bottomNotes">
-        {" "}
         <i style={{ fontSize: "16px", color: "white", marginBottom: "8px" }}>
           For performance purposes, I am currently programmed to only respond
           using 50 characters or less.
