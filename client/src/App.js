@@ -67,14 +67,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>moonglade.ai</h1>
+        <div className="containHead">
+          <h1>moonglade.ai</h1>
+        </div>
         <br />
         <br />
         <hr />
 
         <Container>
-          {/* <Typed value={aiResponse} strings={[aiResponse]} typeSpeed={40} /> */}
-          <p className="aiResponse">{aiResponse}</p>
+          <div className="containResponse">
+            <Typed value={aiResponse} strings={[aiResponse]} typeSpeed={55} />
+          </div>
+          <br />
           <ShowSpinner showSpinner={showSpinner} />
           <br />
           <br />
@@ -113,6 +117,7 @@ function App() {
           will be forwarded to the relevant authorities. <br />
         </i>
       </div>
+      <p className="aiResponse">{aiResponse}</p>
     </div>
   );
 }

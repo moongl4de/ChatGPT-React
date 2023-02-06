@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap");
+
 .App {
   text-align: center;
   background: rgb(252, 102, 255);
@@ -7,6 +9,8 @@
     rgba(140, 236, 255, 1) 100%,
     rgb(116, 232, 255) 100%
   );
+
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .App-logo {
@@ -25,7 +29,17 @@ p {
 }
 
 .aiResponse {
-  font-size: 1.4rem !important;
+  font-size: 2.3rem !important;
+  color: rgba(255, 0, 0, 0);
+  text-shadow: none;
+}
+
+.containResponse {
+  font-size: 1.2rem !important;
+  line-height: 25px;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .hidden {
@@ -85,7 +99,7 @@ p {
   flex-direction: column;
   align-items: center;
   /* justify-content: center; */
-  font-size: calc(10px + 2vmin);
+  /* font-size: calc(10px + 2vmin); */
   color: white;
 
   height: 500px;
@@ -93,9 +107,16 @@ p {
 }
 
 h1 {
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.658);
+  text-shadow: 0px 0px 10px rgba(25, 0, 94, 0.664);
   margin-top: 150px;
+  font-size: calc(50px + 2vmin);
+  text-align: center;
 }
+
+/* .containHead {
+  text-align: left;
+  margin: 0 auto;
+} */
 
 .App-link {
   color: #61dafb;
@@ -107,5 +128,11 @@ h1 {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 30px;
   }
 }
