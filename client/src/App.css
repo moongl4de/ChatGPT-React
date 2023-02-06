@@ -13,10 +13,25 @@
   }
 }
 
+p {
+  text-shadow: 0px 1px 8px rgba(0, 0, 0, 0.774);
+}
+
+.aiResponse {
+  font-size: 1.4rem !important;
+}
+
 .hidden {
 }
 
+.btn:focus {
+  outline: none !important;
+  outline-offset: none !important;
+}
+
 .inputClass {
+  border-radius: 4px;
+
   width: 85%;
   max-width: 650px;
   height: 50px;
@@ -25,22 +40,43 @@
   border: 2px solid rgb(0, 216, 231);
   text-align: center;
   caret-color: rgb(0, 110, 255);
+
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 20px 0 rgba(31, 38, 135, 0.205);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.459);
 }
 
 .inputClass:active,
 .inputClass:focus-visible {
-  border: none;
+  border: 1px solid white;
+  outline: none !important;
+  outline-offset: none !important;
+  box-shadow: 0 8px 20px 0 rgba(25, 0, 58, 0.288);
 }
 
 .bottomNotes {
-  width: 50%;
-  margin: 0 auto;
+  width: 100%;
+  line-height: 18px;
+  /* margin: 0 auto; */
   text-align: center;
+  color: rgb(153, 135, 255);
+  position: fixed;
+  bottom: 0px;
 
-  padding: 5px;
+  padding: 20px;
 }
 .App-header {
-  background-color: #282c34;
+  background: rgb(252, 102, 255);
+  background: linear-gradient(
+    19deg,
+    rgba(252, 121, 255, 1) 0%,
+    rgba(140, 236, 255, 1) 100%,
+    rgb(116, 232, 255) 100%
+  );
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -48,6 +84,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 5%;
+}
+
+h1 {
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.658);
 }
 
 .App-link {

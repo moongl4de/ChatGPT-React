@@ -4,6 +4,8 @@ Moonglade.ai is a conversational AI platform that enables users and organization
 
 ![alt text](./client/src/assets/moongladeai.jpg)
 
+![alt text](./client/src/assets/moongladeai2.jpg)
+
 ## Built with:
 
 - React

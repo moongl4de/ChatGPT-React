@@ -68,11 +68,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>moonglade.ai</h1>
+        <br />
+        <br />
         <hr />
 
         <Container>
           {/* <Typed value={aiResponse} strings={[aiResponse]} typeSpeed={40} /> */}
-          <p style={{ fontSize: "20px", padding: "30px" }}>{aiResponse}</p>
+          <p className="aiResponse">{aiResponse}</p>
           <ShowSpinner showSpinner={showSpinner} />
           <br />
           <br />
@@ -96,12 +98,18 @@ function App() {
 
         <div className="bottomNotes">
           {" "}
-          <i style={{ fontSize: "14px" }}>
-            For performance purposes, I am programmed to only respond using 50
-            characters or less.
+          <i style={{ fontSize: "16px", color: "white", marginBottom: "8px" }}>
+            For performance purposes, I am currently programmed to only respond
+            using 50 characters or less.
           </i>
-          <br />
-          <i style={{ fontSize: "14px", color: "lightblue" }}>
+          <i
+            style={{
+              fontSize: "16px",
+              color: "white",
+              textDecoration: "underline",
+            }}
+          >
+            <br />
             <strong>Note:</strong> Input is monitored. Illicit or illegal
             queries will be forwarded to the relevant authorities. <br />
           </i>
