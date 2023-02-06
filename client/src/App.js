@@ -116,8 +116,8 @@ function App() {
           <strong>Note:</strong> Input is monitored. Illicit or illegal queries
           will be forwarded to the relevant authorities. <br />
         </i>
+        <p className="aiResponse hidden">{aiResponse}</p>
       </div>
-      <p className="aiResponse">{aiResponse}</p>
     </div>
   );
 }
