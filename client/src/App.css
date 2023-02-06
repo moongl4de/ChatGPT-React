@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  background: rgb(252, 102, 255);
+  background: linear-gradient(
+    19deg,
+    rgba(252, 121, 255, 1) 0%,
+    rgba(140, 236, 255, 1) 100%,
+    rgb(116, 232, 255) 100%
+  );
 }
 
 .App-logo {
@@ -63,20 +70,15 @@ p {
   /* margin: 0 auto; */
   text-align: center;
   color: rgb(153, 135, 255);
-  position: fixed;
-  bottom: 0px;
+  /* position: fixed;
+  bottom: 0px; */
 
   padding: 20px;
+  /* position: absolute;
+  bottom: 0px;
+ */
 }
 .App-header {
-  background: rgb(252, 102, 255);
-  background: linear-gradient(
-    19deg,
-    rgba(252, 121, 255, 1) 0%,
-    rgba(140, 236, 255, 1) 100%,
-    rgb(116, 232, 255) 100%
-  );
-
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -85,6 +87,8 @@ p {
   font-size: calc(10px + 2vmin);
   color: white;
   padding: 5%;
+  height: 1100px;
+  padding-bottom: 0;
 }
 
 h1 {

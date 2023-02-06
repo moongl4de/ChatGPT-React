@@ -95,26 +95,25 @@ function App() {
           <br /> <br /> <br /> <br /> <br /> <br />
           <hr />
         </Container>
-
-        <div className="bottomNotes">
-          {" "}
-          <i style={{ fontSize: "16px", color: "white", marginBottom: "8px" }}>
-            For performance purposes, I am currently programmed to only respond
-            using 50 characters or less.
-          </i>
-          <i
-            style={{
-              fontSize: "16px",
-              color: "white",
-              textDecoration: "underline",
-            }}
-          >
-            <br />
-            <strong>Note:</strong> Input is monitored. Illicit or illegal
-            queries will be forwarded to the relevant authorities. <br />
-          </i>
-        </div>
       </header>
+      <div className="bottomNotes">
+        {" "}
+        <i style={{ fontSize: "16px", color: "white", marginBottom: "8px" }}>
+          For performance purposes, I am currently programmed to only respond
+          using 50 characters or less.
+        </i>
+        <i
+          style={{
+            fontSize: "16px",
+            color: "white",
+            textDecoration: "underline",
+          }}
+        >
+          <br />
+          <strong>Note:</strong> Input is monitored. Illicit or illegal queries
+          will be forwarded to the relevant authorities. <br />
+        </i>
+      </div>
     </div>
   );
 }
