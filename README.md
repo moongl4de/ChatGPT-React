@@ -2,8 +2,6 @@
 
 Moonglade.ai is a conversational AI platform that enables users and organizations quickly create natural language-based intelligent chatbot by leveraging OpenAI’s large-scale language models.
 
-![alt text](./client/src/assets/moongladeai.jpg)
-
 ![alt text](./client/src/assets/moongladeai2.jpg)
 
 ## Built with:
