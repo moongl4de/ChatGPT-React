@@ -1,6 +1,6 @@
 ## Moonglade.ai
 
-Moonglade.ai is a conversational AI platform that enables users and organizations quickly create natural language-based intelligent chatbot by leveraging OpenAI’s large-scale language models.
+Moonglade is a conversational AI platform that enables users to query the largest language model ever trained by leveraging OpenAI’s ChatGPT-3 language models.
 
 ![alt text](./client/src/assets/moongladeai2.jpg)
 
@@ -9,7 +9,7 @@ Moonglade.ai is a conversational AI platform that enables users and organization
 - React
 - Node.js
 - Express
-- OpenAI AI ChatGPT-3 Models
+- OpenAI ChatGPT-3 Models
 
 ## License
 
