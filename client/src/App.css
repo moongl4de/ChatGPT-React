@@ -10,12 +10,12 @@
     rgb(116, 232, 255) 100%
   ); */
 
-  background: linear-gradient(219deg, #88c0ff, #f188ff);
-  background-size: 200%;
+  background: linear-gradient(219deg, #82d7ff, #d57cff);
+  background-size: 300%;
 
-  -webkit-animation: AnimationName 50s ease infinite;
-  -moz-animation: AnimationName 50s ease infinite;
-  animation: AnimationName 50s ease infinite;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
